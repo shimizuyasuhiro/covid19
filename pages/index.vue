@@ -61,7 +61,7 @@ export default Vue.extend({
       Data,
       headerItem: {
         icon: 'mdi-chart-timeline-variant',
-        title: this.$t('都内の最新感染動向'),
+        title: this.$t('これは確認用にクローンしたサイトです！注！！'),
         date: Data.lastUpdate
       },
       newsItems: News.newsItems
@@ -70,7 +70,7 @@ export default Vue.extend({
   },
   head(): MetaInfo {
     return {
-      title: this.$t('これは確認ようにクローンしたサイトです！注！') as string
+      title: this.$t('テストサイトだよ！') as string
     }
   }
 })
