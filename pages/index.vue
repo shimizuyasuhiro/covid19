@@ -6,8 +6,8 @@
       :date="headerItem.date"
     />
     <whats-new class="mb-4" :items="newsItems" />
-    <whats-new class="mb-4" :items="newsItems" />
-    
+
+
     <static-info
       class="mb-4"
       :url="localePath('/flow')"
