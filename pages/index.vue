@@ -7,17 +7,12 @@
     />
     <whats-new class="mb-4" :items="newsItems" />
     <whats-new class="mb-4" :items="newsItems" />
-    <static-info
-      class="mb-4"
-      :url=""
-      :text="$t('東京都 新型コロナウイルス対策サイトへの貢献方法を解説')"
-      :btn-text="$t('Qiitaの記事へ')"
-    />
+    
     <static-info
       class="mb-4"
       :url="localePath('/flow')"
-      :text="$t('自分や家族の症状に不安や心配があればまずは電話相談をどうぞ')"
-      :btn-text="$t('相談の手順を見る')"
+      :text="$t('東京都 新型コロナウイルス対策サイトへの貢献方法を解説)"
+      :btn-text="$t('Qiitaの記事へ')"
     />
     <v-row class="DataBlock">
       <confirmed-cases-details-card />
