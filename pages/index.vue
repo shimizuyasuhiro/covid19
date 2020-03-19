@@ -2,7 +2,7 @@
   <div class="MainPage">
     <static-info
       class="mb-4"
-      :url="https://qiita.com/FPC_COMMUNITY/items/b9cc072813dc2231b2b2"
+      :url="https:\/\/qiita.com\/FPC_COMMUNITY\/items\/b9cc072813dc2231b2b2"
       :text="$t('東京都 新型コロナウイルス対策サイトへの貢献方法を解説')"
       :btn-text="$t('Qiitaの記事へ')"
     />
